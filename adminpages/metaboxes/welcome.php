@@ -85,64 +85,6 @@ function pmpro_dashboard_welcome_callback() {
 				<?php } ?>
 			</ul>
 		</div> <!-- end pmpro-dashboard-welcome-column -->
-		<div class="pmpro-dashboard-welcome-column">
-			<div class="pmpro_box">
-				<?php
-					// Get the site type and hub URL.
-					$site_type      = get_option( 'pmpro_site_type' );
-					$site_types     = pmpro_get_site_types();
-					$site_type_hubs = pmpro_get_site_type_hubs();
-
-				if ( empty( $site_type ) ) {
-					$site_type = 'general';
-				}
-
-					// Initialize the site type hub link.
-					$site_type_hub_link = '';
-
-				if ( isset( $site_types[ $site_type ] ) && isset( $site_type_hubs[ $site_type ] ) ) {
-					// Add UTM parameters to the site type hub link.
-					$site_type_hubs[ $site_type ] = add_query_arg(
-						array(
-							'utm_source'   => 'plugin',
-							'utm_medium'   => 'dashboard',
-							'utm_campaign' => 'welcome',
-							'utm_content'  => 'use-case-hub',
-						),
-						$site_type_hubs[ $site_type ]
-					);
-
-					// Add a redirect to the login page with the hub link.
-					$site_type_hub_link = add_query_arg(
-						array(
-							'redirect_to' => urlencode( $site_type_hubs[ $site_type ] ),
-						),
-						'https://www.paidmembershipspro.com/login/'
-					);
-				}
-
-				if ( $site_type_hub_link ) {
-					?>
-						<h3><?php printf( esc_html__( 'Use Case: %s', 'paid-memberships-pro' ), esc_html( $site_types[ $site_type ] ) ); ?></h3>
-						<p><?php printf( esc_html__( 'We designed the %s Hub&trade; as a complete resource to help you start, launch, and grow your membership site with Paid Memberships Pro.', 'paid-memberships-pro' ), esc_html( $site_types[ $site_type ] ) ); ?></p>
-						<p><a class="button button-primary button-hero" href="<?php echo esc_url( $site_type_hub_link ); ?>" target="_blank" rel="noopener noreferrer"><?php printf( esc_html__( 'Visit the %s Hub&trade;', 'paid-memberships-pro' ), esc_html( $site_types[ $site_type ] ) ); ?></a></p>
-						<p><?php esc_html_e( 'You can adjust your site type any time in Advanced Settings.', 'paid-memberships-pro' ); ?></p>
-						<?php
-				} else {
-					?>
-						<h3><?php esc_html_e( 'What are you building?', 'paid-memberships-pro' ); ?></h3>
-						<p><?php esc_html_e( 'Our Use Case Hubs are designed to jumpstart your membership site success. Get actionable steps for your specific type of membership site, like Associations, Courses, or Communities.', 'paid-memberships-pro' ); ?></p>
-						<p>
-							<a class="button button-primary button-hero" href="<?php echo esc_url( add_query_arg( array( 'page' => 'pmpro-advancedsettings#other-settings' ), get_admin_url( null, 'admin.php' ) ) ); ?>">
-								<?php esc_html_e( 'Choose a Site Type', 'paid-memberships-pro' ); ?>
-							</a>
-						</p>
-						<p><?php esc_html_e( 'You can adjust your site type any time in Advanced Settings.', 'paid-memberships-pro' ); ?></p>
-						<?php
-				}
-				?>
-			</div> <!-- end pmpro_box -->
-		</div> <!-- end pmpro-dashboard-welcome-column -->
 	</div> <!-- end pmpro-dashboard-welcome-columns -->
 	<?php
 }

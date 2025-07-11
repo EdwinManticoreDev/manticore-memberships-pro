@@ -51,7 +51,7 @@ function pmpro_add_pages() {
 	}
 
 	// Top level menu
-	add_menu_page( __( 'Memberships', 'paid-memberships-pro' ), __( 'Memberships', 'paid-memberships-pro' ), 'pmpro_memberships_menu', 'pmpro-dashboard', $top_menu_cap, 'dashicons-groups', 30 );
+	add_menu_page( __( 'Manticore Membership', 'paid-memberships-pro' ), __( 'Manticore Membership', 'paid-memberships-pro' ), 'pmpro_memberships_menu', 'pmpro-dashboard', $top_menu_cap, 'dashicons-groups', 30 );
 	
 	// Main submenus
 	add_submenu_page( 'pmpro-dashboard', __( 'Dashboard', 'paid-memberships-pro' ), __( 'Dashboard', 'paid-memberships-pro' ), 'pmpro_dashboard', 'pmpro-dashboard', 'pmpro_dashboard' );
@@ -182,7 +182,7 @@ function pmpro_admin_bar_menu() {
 	$wp_admin_bar->add_menu(
 		array(
 			'id' => 'paid-memberships-pro',
-			'title' => __( '<span class="ab-icon"></span>Memberships', 'paid-memberships-pro' ),
+			'title' => __( '<span class="ab-icon"></span>Manticore Membership', 'paid-memberships-pro' ),
 			'href' => admin_url( 'admin.php?page=' . $top_menu_page )
 		) 
 	);
@@ -627,7 +627,7 @@ function pmpro_display_post_states( $post_states, $post ) {
 	global $pmpro_pages;
 
 	if ( intval( $pmpro_pages['account'] ) === $post->ID ) {
-		$post_states['pmpro_account_page'] = __( 'Membership Account Page', 'paid-memberships-pro' );
+		$post_states['pmpro_account_page'] = __( 'Manticore Account Page', 'paid-memberships-pro' );
 	}
 
 	if ( intval( $pmpro_pages['billing'] ) === $post->ID ) {

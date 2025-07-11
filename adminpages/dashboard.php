@@ -34,7 +34,7 @@ $pmpro_dashboard_meta_boxes = apply_filters(
 	'pmpro_dashboard_meta_boxes',
 	array(
 		'pmpro_dashboard_welcome'        => array(
-			'title'             => esc_html__( 'Welcome to Paid Memberships Pro', 'paid-memberships-pro' ),
+			'title'             => esc_html__( 'Welcome to Manticore Memberships Pro', 'paid-memberships-pro' ),
 			'callback'          => 'pmpro_dashboard_welcome_callback',
 			'capability'        => '',
 			'header_link'       => '',
@@ -50,15 +50,6 @@ $pmpro_dashboard_meta_boxes = apply_filters(
 			'header_link_text'  => '',
 			'columns'           => 3,
 			'grid_column_start' => 1,
-		),
-		'pmpro_dashboard_license_status' => array(
-			'title'             => esc_html__( 'License Status', 'paid-memberships-pro' ),
-			'callback'          => 'pmpro_dashboard_license_status_callback',
-			'capability'        => '',
-			'header_link'       => '',
-			'header_link_text'  => '',
-			'columns'           => 1,
-			'grid_column_start' => 4,
 		),
 		'pmpro_dashboard_report_sales'   => array(
 			'title'             => esc_html__( 'Sales and Revenue', 'paid-memberships-pro' ),
@@ -96,15 +87,6 @@ $pmpro_dashboard_meta_boxes = apply_filters(
 			'columns'           => 2,
 			'grid_column_start' => 1,
 		),
-		'pmpro_dashboard_get_involved'   => array(
-			'title'             => esc_html__( 'Get Involved', 'paid-memberships-pro' ),
-			'callback'          => 'pmpro_dashboard_get_involved_callback',
-			'capability'        => '',
-			'header_link'       => '',
-			'header_link_text'  => '',
-			'columns'           => 1,
-			'grid_column_start' => 1,
-		),
 		'pmpro_dashboard_follow_us'      => array(
 			'title'             => esc_html__( 'Follow Us', 'paid-memberships-pro' ),
 			'callback'          => 'pmpro_dashboard_follow_us_callback',
@@ -122,15 +104,6 @@ $pmpro_dashboard_meta_boxes = apply_filters(
 			'header_link_text'  => '',
 			'columns'           => 1,
 			'grid_column_start' => 3,
-		),
-		'pmpro_dashboard_news_updates'   => array(
-			'title'             => esc_html__( 'News and Updates', 'paid-memberships-pro' ),
-			'callback'          => 'pmpro_dashboard_news_updates_callback',
-			'capability'        => '',
-			'header_link'       => '',
-			'header_link_text'  => '',
-			'columns'           => 1,
-			'grid_column_start' => 4,
 		),
 	)
 );
