@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Paid Memberships Pro
+ * Plugin Name: Mantiore Memberships Pro
  * Plugin URI: https://www.paidmembershipspro.com
  * Description: The Trusted Membership Platform That Grows with You
  * Version: 3.5.1
- * Author: Paid Memberships Pro
- * Author URI: https://www.paidmembershipspro.com
+ * Author: Manticore Memberships Pro
+ * Author URI: https://manticore.marketing/
  * Text Domain: paid-memberships-pro
  * Domain Path: /languages
  */
