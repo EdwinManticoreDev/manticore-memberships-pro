@@ -18,7 +18,7 @@ if ( empty( $_REQUEST['step'] ) ) {
 <div class="pmpro-wizard">
 	<div class="pmpro-wizard__background"></div>
 	<div class="pmpro-wizard__header">
-		<h1><a class="pmpro_logo" target="_blank" rel="noopener noreferrer" href="https://www.paidmembershipspro.com/?utm_source=plugin&utm_medium=pmpro-admin-header&utm_campaign=homepage"><img src="<?php echo esc_url( PMPRO_URL . '/images/Paid-Memberships-Pro.png' ); ?>" width="350" height="75" border="0" alt="<?php esc_attr_e( 'Paid Memberships Pro', 'paid-memberships-pro' ); ?>" /></a></h1>
+		<h1><a class="pmpro_logo" target="_blank" rel="noopener noreferrer" href="https://www.paidmembershipspro.com/?utm_source=plugin&utm_medium=pmpro-admin-header&utm_campaign=homepage"><img src="<?php echo esc_url( PMPRO_URL . '/images/Manticore-Horizontal.svg' ); ?>" width="350" height="75" border="0" alt="<?php esc_attr_e( 'Paid Memberships Pro', 'paid-memberships-pro' ); ?>" /></a></h1>
 		<nav class="pmpro-stepper">
 			<ul class="pmpro-stepper__steps">
 				<?php

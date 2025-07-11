@@ -362,7 +362,7 @@ class PMPro_Admin_Activity_Email extends PMProEmail {
 									?>
 									</td>
 									<td width="40%" style="background-color:#F5F8FA;padding:30px;">
-										<p style="margin:0px;padding:0px;text-align:left;"><a style="color:#0C3D54;" href="https://www.paidmembershipspro.com" target="_blank" rel="noopener noreferrer"><img style="width:100px;height:100px;" src="<?php echo esc_url( plugins_url( 'images/Paid-Memberships-Pro_icon.png', PMPRO_BASE_FILE ) ); ?>" alt="<?php esc_attr_e( 'Paid Memberships Pro', 'paid-memberships-pro' ); ?>" /></a></p>
+										<p style="margin:0px;padding:0px;text-align:left;"><a style="color:#0C3D54;" href="https://www.paidmembershipspro.com" target="_blank" rel="noopener noreferrer"><img style="width:100px;height:100px;" src="<?php echo esc_url( plugins_url( 'images/Manticore-Logo.svg', PMPRO_BASE_FILE ) ); ?>" alt="<?php esc_attr_e( 'Paid Memberships Pro', 'paid-memberships-pro' ); ?>" /></a></p>
 										<p style="margin:0px 0px 15px 0px;padding:0px;"><a style="color:#0C3D54;" href="https://www.paidmembershipspro.com/support/" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Get Support', 'paid-memberships-pro' ); ?></a></p>
 										<p style="margin:0px 0px 15px 0px;padding:0px;"><a style="color:#0C3D54;" href="https://www.paidmembershipspro.com/slack/" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Join the PMPro User Community on Slack', 'paid-memberships-pro' ); ?></a></p>
 										<p style="margin:0px;padding:0px;"><a style="color:#0C3D54;" href="https://www.youtube.com/user/strangerstudiostv?sub_confirmation=1" target="_blank"><?php esc_html_e( 'Subscribe to our YouTube Channel', 'paid-memberships-pro' ); ?></a></p>
