@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strangerstudios/paid-memberships-pro.git"
+    "url": "https://github.com/EdwinManticoreDev/manticore-memberships-pro#"
   },
   "main": "build/index.js",
   "scripts": {

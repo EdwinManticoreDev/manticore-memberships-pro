@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Mantiore Memberships Pro
- * Plugin URI: https://www.paidmembershipspro.com
+ * Plugin URI: hhttps://manticore.marketing/
  * Description: The Trusted Membership Platform That Grows with You
  * Version: 3.5.1
  * Author: Manticore Memberships Pro
@@ -10,8 +10,8 @@
  * Domain Path: /languages
  */
 /**
- * Copyright 2011-2025	Stranger Studios
- * (email : info@paidmembershipspro.com)
+ * Copyright : Manticore Memberships
+ * (email : support@manticore.marketing)
  * GPLv2 Full license details in license.txt
  */
 
