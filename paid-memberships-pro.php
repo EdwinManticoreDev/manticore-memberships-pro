@@ -3,7 +3,7 @@
  * Plugin Name: Mantiore Memberships Pro
  * Plugin URI: hhttps://manticore.marketing/
  * Description: The Trusted Membership Platform That Grows with You
- * Version: 3.5.1
+ * Version: 0.0.1
  * Author: Manticore Memberships Pro
  * Author URI: https://manticore.marketing/
  * Text Domain: paid-memberships-pro
