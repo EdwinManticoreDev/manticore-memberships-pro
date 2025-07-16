@@ -6,7 +6,7 @@
  * Version: 0.0.1
  * Author: Manticore Memberships Pro
  * Author URI: https://manticore.marketing/
- * Text Domain: paid-memberships-pro
+ * Text Domain: manticore-memberships-pro
  * Domain Path: /languages
  */
 /**
@@ -16,7 +16,7 @@
  */
 
 // version constant
-define( 'PMPRO_VERSION', '3.5.1' );
+define( 'PMPRO_VERSION', '3.5.2' );
 define( 'PMPRO_USER_AGENT', 'Paid Memberships Pro v' . PMPRO_VERSION . '; ' . site_url() );
 define( 'PMPRO_MIN_PHP_VERSION', '5.6' );
 
