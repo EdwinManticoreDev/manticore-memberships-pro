@@ -6,14 +6,16 @@
     --pmpro--border--color: #B9D1D5;
     --pmpro--border--radius: 6px;
     --pmpro--box-shadow: 1px 2px 3px #12196110;
-    --pmpro--color--blue-lightest: #F5F8F9;
-    --pmpro--color--blue-medium-transparent: #E2E8E999;
-    --pmpro--color--blue-medium: #E2E8E9;
+    --pmpro--color--blue-lightest: #F5F8F9; /* WP Dashboard Background | Also
+	for the Quick Links card | One on One off in tables #14c5512e */ 
+    --pmpro--color--blue-medium-transparent: #E2E8E999; /* This is for the tabs */
+    --pmpro--color--blue-medium: #E2E8E9; /* This is for the version widget aside the*/
     --pmpro--color--blue-darkest-transparent: #C3D0D299;
-    --pmpro--color--blue-darkest: #C3D0D2;
+    --pmpro--color--blue-darkest: #C3D0D2; /* This is the outline in the membership tabs*/
+  
 
     /* Primary text and link colors */
-    --pmpro--color--almost-black: #070707;
+    --pmpro--color--almost-black: #070707; /* <h>,<p> tags*/
     --pmpro--color--info-link: #14C551;
     --pmpro--color--success-link: #14C551;
 
@@ -385,6 +387,7 @@ body[class*="memberships_page_pmpro-"] {
 
 .pmpro_admin #poststuff .inside {
 	margin: 0;
+	background-color: var(--pmpro--color--blue-lightest);
 }
 
 .pmpro_admin .postbox {

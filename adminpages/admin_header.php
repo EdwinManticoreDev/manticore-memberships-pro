@@ -256,10 +256,6 @@
 				<li><a href="<?php echo esc_url( admin_url( 'admin.php?page=pmpro-addons' ) );?>"<?php if($view == 'pmpro-addons') { ?> class="current"<?php } ?>"><?php esc_html_e('Add Ons', 'paid-memberships-pro' );?></a></li>
 			<?php } ?>
 
-			<?php if(current_user_can('manage_options')) { ?>
-				<li><a href="<?php echo esc_url( admin_url( 'admin.php?page=pmpro-license' ) );?>"<?php if($view == 'pmpro-license') { ?> class="current"<?php } ?>"><?php esc_html_e('License', 'paid-memberships-pro' );?></a></li>
-			<?php } ?>
-
 			<?php if ( current_user_can('pmpro_wizard' ) && pmpro_show_setup_wizard_link() ) { ?>
 				<li><a href="<?php echo esc_url( admin_url( 'admin.php?page=pmpro-wizard' ) );?>"<?php if($view == 'pmpro-wizard') { ?> class="current"<?php } ?>"><?php esc_html_e('Setup Wizard', 'paid-memberships-pro' );?></a></li>
 			<?php } ?>
